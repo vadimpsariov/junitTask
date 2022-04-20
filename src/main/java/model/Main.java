@@ -31,5 +31,7 @@ public class Main {
         bank2.addingCheck(sa4);
 
         System.out.println("sum of all Money after calculation= " +bank2.calculateGlobalMonthlyInterest());
+
+
     }
 }

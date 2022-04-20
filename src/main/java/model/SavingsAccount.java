@@ -11,6 +11,7 @@ public class SavingsAccount {
     }
 
     public void setAnnualInterestRate(double annualInterestRate) {
+
         this.annualInterestRate = annualInterestRate;
     }
 
@@ -47,6 +48,7 @@ public class SavingsAccount {
     public void modifyInterestRate(double newValue){
         annualInterestRate = newValue;
     }
+
     public static void transferFunds(SavingsAccount transmitter,SavingsAccount reciever, double sum){
         if (transmitter.savingBalance < sum){
             System.out.println(transmitter.name+" doesn't have this much money!");

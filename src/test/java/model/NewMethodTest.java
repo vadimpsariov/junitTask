@@ -1,10 +1,9 @@
 package model;
 
 import org.junit.jupiter.api.Test;
-
 import java.io.InvalidObjectException;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class NewMethodTest {
 

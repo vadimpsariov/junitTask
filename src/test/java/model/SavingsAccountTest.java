@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SavingsAccountTest {
 
     @Test
-    void calculateMonthlyInterest() {
+    void calculateMonthlyInterestTest() {
         SavingsAccount sa1 = new SavingsAccount("Julian",2000);
         sa1.setAnnualInterestRate(0.04);
 
